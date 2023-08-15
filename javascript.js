@@ -33,9 +33,7 @@ $(document).ready(function () {
 //   }) 
 
   $("#hamburger").click(function(){
-
-    // var navbarlinks = document.getElementById("navbar-links");
-
+    var navbarlinks = document.getElementById("navbarlinks");
     if(navbarlinks.style.display == "flex"){
         $(".navbar-links").css({'display':'none'});
     }
